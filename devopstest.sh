@@ -7,8 +7,8 @@ if [ -z "${FILE_PATH}" ]
 then
     echo "No argument supplied. Expected a file path"
     echo "Creating directory in current path"
-    mkdir devopsshared && cd devopsshared
-    FILE_PATH=$(pwd)
+    mkdir ~/devopsshared && cd ~/devopsshared
+    FILE_PATH=~/devopsshared
 fi
 
 echo "Currently in " ${FILE_PATH}
